@@ -72,33 +72,3 @@ BM25-SE/
 └─ requirements.txt
 ```
 
----
-
-## **5. Cara kontribusi**
-
-1. Fork repo ini
-2. Buat branch baru untuk fiturmu:
-
-```bash
-git checkout -b fitur-baru
-```
-
-3. Commit perubahan:
-
-```bash
-git commit -m "Menambahkan fitur baru"
-```
-
-4. Push ke branch-mu:
-
-```bash
-git push origin fitur-baru
-```
-
-5. Buat Pull Request di GitHub
-
----
-
-## **6. Lisensi**
-
-MIT License. Lihat file `LICENSE` untuk detail.
