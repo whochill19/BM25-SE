@@ -46,29 +46,30 @@ pip install -r requirements.txt
 
 ## **3. Menjalankan project**
 
-1. Pastikan dataset sudah ada di folder `dataset/`.
-2. Jalankan script utama:
+Jalankan masing-masing script sesuai kebutuhan:
+
+### a. Preprocess dataset
+
+```bash
+python preprocess.py
+```
+
+### b. Training model
+
+```bash
+python train.py
+```
+
+### c. Predict / evaluasi model
+
+```bash
+python predict.py
+```
+
+### d. Jalankan main program
 
 ```bash
 python main.py
 ```
 
-3. Ikuti instruksi di terminal untuk input query dan melihat hasil pencarian.
-
 ---
-
-## **4. Struktur folder**
-
-```
-BM25-SE/
-│
-├─ .gitignore
-├─ main.py
-├─ bm25_model.py
-├─ embedding_model.py
-├─ preprocess.py
-├─ dataset/
-│   └─ processed_documents.csv
-└─ requirements.txt
-```
-
